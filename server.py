@@ -18,7 +18,6 @@ def about():
 
 @app.route('/posts/<string:post_name>')
 def show_post(post_name):
-    # show the post with the given id, the id is an integer
     return render_template(f'posts/{post_name}.html')
 
 @app.errorhandler(404)
