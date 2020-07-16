@@ -8,5 +8,3 @@ def get_all_post_names():
     except:
         print('An error occurred while fetching posts')
         return []
-
-get_all_post_names()
